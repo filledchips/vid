@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Kind Message</title>
-    <style>
-        body {
-            margin: 0;
-            background: #000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        video {
-            max-width: 100%;
-            max-height: 100%;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Kind Message For You</title>
+<style>
+body{
+    margin:0;
+    background:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+video{
+    max-width:100%;
+    max-height:100%;
+    pointer-events:none;
+}
+</style>
 </head>
+
 <body>
 
-<video controls autoplay>
+<video autoplay muted>
     <source src="video.mov" type="video/quicktime">
-    Your browser does not support the video tag.
 </video>
 
 </body>
